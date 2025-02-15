@@ -166,7 +166,7 @@ const experiences = [
     iconBg: "#fff",
     date: "Jan 2024 - Present",
     points: [
-      "Founder and visionary behind Talent For I, where we have created a culture centered on learning, growth, and continuous improvement. My primary focus is to attract the best talent in America and build a high-performance team.",
+      "Founder and visionary behind Talento Para TI, where we have created a culture centered on learning, growth, and continuous improvement. My primary focus is to attract the best talent in America and build a high-performance team.",
       "Attract and develop expert talent in Smart Technology to then place them in the best places to work in America.",
     ],
   },
@@ -338,6 +338,18 @@ const education = [
     points: [
       "Responsive Web Design, JavaScript Algorithms and Data Structures, Front End Development Libraries and Frameworks",
       "Data Visualization",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "FreeCodeCamp",
+    icon: fcc_icon,
+    iconBg: "#fff",
+    date: "Dec 2024 - Present",
+    points: [
+      "Certified Full Stack Developer. Mastering front-end (HTML, CSS, JavaScript, React, TypeScript) and back-end (Git, Npm, Node.js, Python, databases) technologies to build scalable web applications.",
+      "Covers all the essential technologies required to build modern, scalable web applications from start to finish.",
+      // "Mastering front-end technologies like HTML, CSS, JavaScript, React, and TypeScript, and back-end technologies including Git, Npm, Node.js, Python, and relational databases.",
     ],
   },
 ];

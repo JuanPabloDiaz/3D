@@ -44,6 +44,7 @@ import cpcc from "./company/cpcc.png";
 import eplus from "./company/eplus.jpg";
 import talento from "./company/talento.png";
 import confs from "./company/confs.png";
+import dbx from "./company/databricks.png";
 
 // Project Images
 import miguel from "./projects/miguel.jpg";
@@ -73,6 +74,7 @@ export {
   eplus,
   talento,
   confs,
+  dbx,
   fcc,
   fcc_icon,
   platzi,

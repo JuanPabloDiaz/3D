@@ -14,6 +14,7 @@ import {
   confs,
   fcc,
   fcc_icon,
+  dbx,
   platzi,
   platzi_icon,
   aws,
@@ -217,6 +218,47 @@ const experiences = [
 ];
 
 const certifications = [
+  {
+    title: "Databricks MVP",
+    type: "Databricks",
+    icon: dbx,
+    iconBg: "#CCCFD8",
+    date: "Apr 2025",
+    points: [
+      "Honored to be part of the Databricks MVP Program, recognizing active contributors to the global data and AI community.",
+      "Engaged in public speaking, content creation, mentoring, and community support.",
+      "Dedicated to knowledge sharing and solving real-world data and AI challenges.",
+    ],
+    credential:
+      "https://credentials.databricks.com/3428c69a-03d0-4598-8429-55786b9d8ddd#acc.G6QlY0p3",
+  },
+  {
+    title: "Generative AI Fundamentals",
+    type: "Databricks",
+    icon: dbx,
+    iconBg: "#CCCFD8",
+    date: "Mar 2025",
+    points: [
+      "Certified in Generative AI Fundamentals by Databricks, covering core concepts and real-world applications of LLMs like ChatGPT and Dolly.",
+      "Completed on-demand training on the impact and use of generative AI in business.",
+    ],
+    credential:
+      "https://credentials.databricks.com/7c7d153e-2986-4fb1-a38e-5b14e9b71365#acc.U5feJdOb",
+  },
+  {
+    title: "Databricks Fundamentals",
+    type: "Databricks",
+    icon: dbx,
+    iconBg: "#CCCFD8",
+    date: "Jan 2025",
+    points: [
+      "Certified in Databricks Fundamentals via concise on-demand training.",
+      "Understood how the Data Intelligence Platform democratizes data and AI access.",
+      "Learned to integrate AI into unified data workflows.",
+    ],
+    credential:
+      "https://credentials.databricks.com/f11020d3-09ad-47a5-a9a4-06b4ef5f9980#acc.Ka34dwcD",
+  },
   {
     title: "Scientific Computing with Python",
     type: "Free Code Camp",

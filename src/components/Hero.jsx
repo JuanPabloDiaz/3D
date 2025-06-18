@@ -14,7 +14,7 @@ const TypewriterText = ({ texts }) => {
         const currentText = texts[currentIndex];
         if (displayText.length < currentText.length) {
           setDisplayText((prevText) =>
-            currentText.slice(0, prevText.length + 1)
+            currentText.slice(0, prevText.length + 1),
           );
         } else {
           setIsTyping(false);

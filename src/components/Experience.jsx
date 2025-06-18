@@ -44,7 +44,7 @@ const ExperienceCard = React.memo(
         </div>
       </motion.div>
     );
-  }
+  },
 );
 
 const ExperienceDetails = React.memo(({ experience }) => {
@@ -93,7 +93,7 @@ const Experience = () => {
 
   const currentExperience = useMemo(
     () => experiences[activeExperience],
-    [activeExperience]
+    [activeExperience],
   );
 
   useEffect(() => {

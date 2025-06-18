@@ -82,7 +82,7 @@ const Contact = () => {
           to_email: "juan.diaz93@hotmail.com",
           message: form.message,
         },
-        publicKey
+        publicKey,
       )
       .then(
         () => {
@@ -106,7 +106,7 @@ const Contact = () => {
             duration: 3000,
             position: "bottom-right",
           });
-        }
+        },
       );
   };
 

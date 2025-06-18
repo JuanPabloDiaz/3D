@@ -23,6 +23,16 @@ To fully interact with the 3D elements of this project, please use a desktop bro
 
 Explore the live demonstration of the project at [data.jpdiaz.dev](https://data.jpdiaz.dev)!
 
+<div align="center">
+
+[![demo](https://img.shields.io/badge/View%20Demo-000?style=for-the-badge&logo=Google-Chrome&logoColor=white)](https://data.jpdiaz.dev/)
+[![backup demo](https://img.shields.io/badge/Backup%20Demo-000?style=for-the-badge&logo=Netlify&logoColor=white)](https://projp.netlify.app/)
+[![Cloudflare Demo](https://img.shields.io/badge/Backup%20Demo-000?style=for-the-badge&logo=Cloudflare&logoColor=white)](https://3d-portfolio-5yt.pages.dev)
+[![repo](https://img.shields.io/badge/View%20Code-000?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/JuanPabloDiaz/3D)
+
+</div>
+
+
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - [React.js](https://reactjs.org/)

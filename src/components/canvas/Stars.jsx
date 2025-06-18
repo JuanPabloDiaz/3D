@@ -1,18 +1,20 @@
-"use client"
+"use client";
 
-import { useState, useRef, useEffect } from "react"
-import { Canvas, useFrame } from "@react-three/fiber"
-import { Points, PointMaterial, Preload } from "@react-three/drei"
-import * as random from "maath/random/dist/maath-random.esm"
+import { useState, useRef, useEffect } from "react";
+import { Canvas, useFrame } from "@react-three/fiber";
+import { Points, PointMaterial, Preload } from "@react-three/drei";
+import * as random from "maath/random/dist/maath-random.esm";
 
 const Stars = (props) => {
-  const ref = useRef()
-  const [sphere] = useState(() => random.inSphere(new Float32Array(2001), { radius: 1.2 }))
+  const ref = useRef();
+  const [sphere] = useState(() =>
+    random.inSphere(new Float32Array(2001), { radius: 1.2 }),
+  );
 
   useFrame((state, delta) => {
-    ref.current.rotation.x -= delta / 15
-    ref.current.rotation.y -= delta / 20
-  })
+    ref.current.rotation.x -= delta / 15;
+    ref.current.rotation.y -= delta / 20;
+  });
 
   return (
     <group rotation={[0, 0, Math.PI / 4]}>
@@ -26,26 +28,26 @@ const Stars = (props) => {
         />
       </Points>
     </group>
-  )
-}
+  );
+};
 
 const StarsCanvas = () => {
-  const [isMobile, setIsMobile] = useState(false)
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 500px)")
-    setIsMobile(mediaQuery.matches)
+    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    setIsMobile(mediaQuery.matches);
 
     const handleMediaQueryChange = (event) => {
-      setIsMobile(event.matches)
-    }
+      setIsMobile(event.matches);
+    };
 
-    mediaQuery.addEventListener("change", handleMediaQueryChange)
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
 
     return () => {
-      mediaQuery.removeEventListener("change", handleMediaQueryChange)
-    }
-  }, [])
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
+    };
+  }, []);
 
   return (
     <div className="w-full h-auto absolute inset-0 z-[-1]">
@@ -54,7 +56,7 @@ const StarsCanvas = () => {
         <Preload all />
       </Canvas>
     </div>
-  )
-}
+  );
+};
 
-export default StarsCanvas
+export default StarsCanvas;
